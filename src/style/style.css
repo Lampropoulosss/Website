@@ -1,11 +1,4 @@
-/* ###########################################################
-###########################################################
-## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
-##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
-##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
-##              PLEASE RESPECT THE LICENSE               ##
-###########################################################
-########################################################### */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=flex");
 
@@ -194,14 +187,7 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
-/* ###########################################################
-###########################################################
-## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
-##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
-##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
-##              PLEASE RESPECT THE LICENSE               ##
-###########################################################
-########################################################### */
+
 button:hover {
   background-color: #587694;
   color: #cccccc;
@@ -335,14 +321,6 @@ canvas {
 }
 
 
-/* ###########################################################
-###########################################################
-## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
-##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
-##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
-##              PLEASE RESPECT THE LICENSE               ##
-###########################################################
-########################################################### */
 
 
 
@@ -429,14 +407,6 @@ canvas {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-/* ###########################################################
-###########################################################
-## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
-##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
-##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
-##              PLEASE RESPECT THE LICENSE               ##
-###########################################################
-########################################################### */
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -540,23 +510,6 @@ adsbygoogle {
   text-align: center;
 }
 
-
-
-
-/* ###########################################################
-###########################################################
-## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
-##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
-##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
-##              PLEASE RESPECT THE LICENSE               ##
-###########################################################
-########################################################### */
-
-
-
-
-
-
 /* ---- reset ---- */
 body {
   margin: 0;
@@ -565,7 +518,7 @@ body {
 canvas {
   display: block;
   vertical-align: bottom;
-} /* ---- particles.js container ---- */
+} 
 #particles-js {
 	width: 100%;
 	height: 100%;
@@ -621,7 +574,6 @@ canvas {
 .column-row>.column-66 {
     width: 66.66%;
 }
-}
 table.table-layout-fixed {
 	border-spacing: 10px;
 }
@@ -643,8 +595,6 @@ th {
     vertical-align: inherit;
     font-weight: bold;
     text-align: -internal-center;
-}
-element.style {
 }
 @media (max-width: 960px)
   table:not(.table-layout-static) tr td:not(:last-of-type), table:not(.table-layout-static) tr th:not(:last-of-type) {
@@ -707,15 +657,3 @@ table {
 dropdown {
   padding: 0px 20px 0px 0px;
 }
-
-
-
-
-/* ###########################################################
-###########################################################
-## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
-##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
-##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
-##              PLEASE RESPECT THE LICENSE               ##
-###########################################################
-########################################################### */
