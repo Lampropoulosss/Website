@@ -1,11 +1,11 @@
-###########################################################
+/* ###########################################################
 ###########################################################
 ## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
 ##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
 ##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
 ##              PLEASE RESPECT THE LICENSE               ##
 ###########################################################
-###########################################################
+########################################################### */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=flex");
 
@@ -86,6 +86,9 @@ body {
     opacity: 1;
   }
 }
+
+
+
 
 li.dropdown {
   display: inline-block;
@@ -191,7 +194,14 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
-
+/* ###########################################################
+###########################################################
+## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
+##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
+##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
+##              PLEASE RESPECT THE LICENSE               ##
+###########################################################
+########################################################### */
 button:hover {
   background-color: #587694;
   color: #cccccc;
@@ -325,14 +335,14 @@ canvas {
 }
 
 
-###########################################################
+/* ###########################################################
 ###########################################################
 ## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
 ##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
 ##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
 ##              PLEASE RESPECT THE LICENSE               ##
 ###########################################################
-###########################################################
+########################################################### */
 
 
 
@@ -419,14 +429,14 @@ canvas {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-###########################################################
+/* ###########################################################
 ###########################################################
 ## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
 ##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
 ##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
 ##              PLEASE RESPECT THE LICENSE               ##
 ###########################################################
-###########################################################
+########################################################### */
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -533,14 +543,14 @@ adsbygoogle {
 
 
 
-###########################################################
+/* ###########################################################
 ###########################################################
 ## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
 ##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
 ##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
 ##              PLEASE RESPECT THE LICENSE               ##
 ###########################################################
-###########################################################
+########################################################### */
 
 
 
@@ -637,7 +647,7 @@ th {
 element.style {
 }
 @media (max-width: 960px)
-table:not(.table-layout-static) tr td:not(:last-of-type), table:not(.table-layout-static) tr th:not(:last-of-type) {
+  table:not(.table-layout-static) tr td:not(:last-of-type), table:not(.table-layout-static) tr th:not(:last-of-type) {
     padding-bottom: 0;
 }
 @media (max-width: 960px)
@@ -701,11 +711,11 @@ dropdown {
 
 
 
-###########################################################
+/* ###########################################################
 ###########################################################
 ## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
 ##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
 ##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
 ##              PLEASE RESPECT THE LICENSE               ##
 ###########################################################
-###########################################################
+########################################################### */

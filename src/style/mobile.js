@@ -1,12 +1,11 @@
-###########################################################
+/* ###########################################################
 ###########################################################
 ## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
 ##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
 ##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
 ##              PLEASE RESPECT THE LICENSE               ##
 ###########################################################
-###########################################################
-
+########################################################### */
 
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -54,11 +53,11 @@ function showSlides(n) {
 }
 
 
-###########################################################
+/* ###########################################################
 ###########################################################
 ## THIS SOURCE CODE IS OWNED BY CHAOTIC DESTINY HOSTING  ##
 ##     DO NOT USE THIS WEBSITE FOR COMMERCIAL USAGE      ##
 ##     DO NOT USE THIS WEBSITE FOR PERSONAL USAGE        ##
 ##              PLEASE RESPECT THE LICENSE               ##
 ###########################################################
-###########################################################
+########################################################### */
