@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+:root {
+
+	/* Navbar */
+
+	--navbar-bg-color: rgba(27, 27, 27, 0.7);
+	--navbar-dropdown-bg-color: rgba(27, 27, 27, 0.8);
+	--navbar-logo-color: #fff;
+	--navbar-text-color: #fff;
+	--navbar-a-color: #fff;
+	--navbar-a-hover-color: gold;
+	--navbar-dropdown-border-top-color: gold;
+	--navbar-dropdown-border-bottom-color: rgba(0, 0, 0, 0.3);
+
+	/* Bars Icon */
+
+	--bars-icon-color: #fff;
+
+	/* Scroll Bar */
+
+	--scrollbar-color: rgb(227, 191, 0);
+	--scrollbar-hover-color: rgb(200, 160, 0);
+
+	/* Body */
+
+	--body-bg-color: rgb(45, 45, 45);
+
+	/* Footer  */
+
+	--footer-a-color: #888;
+	--footer-a-hover-color: gold;
+	--footer-bg-color: #1b1b1b;
+}
+
+/* Nav Styles */
+
+nav {
+	background-color: var(--navbar-bg-color);
+	color: var(--navbar-text-color);
+	font-family: "Lato";
+}
+
+.left {
+	float: left;
+}
+
+nav .flex {
+	justify-content: space-between;
+}
+
+nav:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+nav .logo {
+	float: left;
+	color: var(--navbar-logo-color);
+	font-size: 27px;
+	font-weight: 600;
+	line-height: 70px;
+	padding-left: 60px;
+}
+
+nav ul {
+	float: right;
+	list-style: none;
+	margin-right: 40px;
+	position: relative;
+}
+
+nav ul li {
+	float: left;
+	display: inline-block;
+	/*background: var(--navbar-bg-color);*/
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: var(--navbar-a-color);
+	text-decoration: none;
+	line-height: 70px;
+	font-size: 18px;
+	padding: 8px 15px;
+}
+
+nav ul li a:hover {
+	color: var(--navbar-a-hover-color);
+	cursor: pointer;
+}
+
+nav ul li ul {
+	background-color: var(--navbar-dropdown-bg-color);
+}
+
+nav ul ul {
+	position: absolute;
+	top: 90px;
+	opacity: 0;
+	visibility: hidden;
+	transition: top 0.2s;
+	border-top: 2px solid var(--navbar-dropdown-border-top-color);
+}
+
+nav ul li:hover > ul {
+	top: 70px;
+	opacity: 1;
+	visibility: visible;
+}
+
+nav ul ul li {
+	position: relative;
+	margin: 0;
+	width: 210px;
+	float: none;
+	display: list-item;
+	border-bottom: 1px solid var(--navbar-dropdown-border-bottom-color);
+}
+
+nav ul ul li a {
+	line-height: 50px;
+}
+
+nav ul ul li a:hover {
+	box-shadow: none;
+	color: var(--navbar-a-hover-color);
+}
+
+nav input, nav .show, .icon {
+	display: none;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: var(--footer-bg-color);
+}
+
+footer .grid {
+	grid-template-columns: repeat(5, 1fr);
+	align-items: flex-start;
+	grid-gap: 2%;
+	padding: 3%;
+}
+
+footer h1 {
+	font-size: 1.5rem;
+}
+
+footer .column {
+	line-height: 1.8rem;
+}
+
+footer .copyright {
+	/*grid-column: 1 / span 2;*/
+}
+
+footer a {
+	display: block;
+	text-decoration: none;
+	color: var(--footer-a-color);
+}
+
+.footer-social {
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+	padding: 10px 0;
+}
+
+.footer-social a {
+	display: inline-block;
+	padding: 10px 5px;
+}
+
+footer a:hover {
+	color: var(--footer-a-hover-color);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 968px) {
+
+	/* Navbar Styles */
+
+	nav {
+		overflow-x: hidden;
+	}
+
+	nav ul {
+		width: 100%;
+		margin-right: 0;
+		float: left;
+	}
+
+	nav .logo {
+		width: 100%;
+		padding-left: 20px;
+	}
+
+	nav ul ul li, nav ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul li{
+    	border-bottom: 0px;
+  }
+
+	nav ul ul {
+		top: 70px;
+		position: static;
+		border-top: none;
+		float: none;
+		display: none;
+		opacity: 1;
+		visibility: visible;
+	}
+
+	nav ul ul a {
+    	padding-left: 40px;
+  }
+
+	nav .show {
+		display: block;
+		padding: 0 20px;
+		font-size: 18px;
+		line-height: 70px;
+		cursor: pointer;
+	}
+
+	nav .show:hover {
+		color: var(--navbar-a-hover-color);
+	}
+
+	.icon {
+		display: block;
+		font-size: 25px;
+		color: var(--bars-icon-color);
+		position: absolute;
+		top: 0;
+		right: 40px;
+		line-height: 70px;
+		cursor: pointer;
+	}
+
+	nav .show + a,  ul {
+		display: none;
+	}
+
+	[id^=button]:checked + ul, [id^=button]:checked + ul ~ ul {
+		display: block;
+	}
+	/* Footer Styles */
+
+	footer .grid {
+		display: block;
+		overflow-x: hidden;
+	}
+
+	footer h1 {
+		font-size: 2rem;
+	}
+
+	footer p {
+		font-size: 0.90rem;
+		padding-bottom: 20px;
+	}
+
+}
