@@ -42,16 +42,85 @@
 			padding: 5% 0;
 		}
 
+		.map {
+			width: 100%;
+		}
+
+		.map-container {
+			position: relative;
+		}
+
+		.container {
+			max-width: 1100px;
+			margin: 0 auto;
+		}
+
+		.mark {
+			display: block;
+			cursor: pointer;
+			position: absolute;
+			background-color: gold;
+			border-radius: 50%;
+			height: .8rem;
+			width: .8rem;
+			text-decoration: none;
+			text-shadow: gold #000;
+			animation: shadow-pulse 1.5s infinite;
+		}
+
+		@-webkit-keyframes shadow-pulse {
+			0% {
+				-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+			}
+			70% {
+				-webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+			}
+			100% {
+				-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+			}
+		}
+		@keyframes shadow-pulse {
+			0% {
+				-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+				box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+			}
+			70% {
+				-moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+				box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+			}
+			100% {
+				-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+				box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+			}
+		}
+
 		footer {
 			margin-top: 30px;
 		}
 
-		.whyCDH > h2, .pricing > h2 {
+		.float-right {
+			float: right;
+			width: 60%;
+		}
+		.float-left {
+			float: left;
+			width: 40%;
+		}
+
+		.whyCDH > h2, .pricing > h2, .locations > h2 {
 			color: gold;
 			font-weight: 600;
 			font-size: 1.9rem;
 			text-align: center;
 			margin-bottom: 30px;
+		}
+
+		.nowrap {
+			white-space: nowrap;
+		}
+
+		.locations > h2 {
+			margin-top: 50px;
 		}
 
 		.whyCDH h3 {
@@ -362,6 +431,24 @@
 					</div>
 					<div class="card-bottom">
 						<a class="buy-now">Coming Soon</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="locations">
+			<h2>OUR LOCATIONS</h2>
+			<div class="container">
+				<div class="float-left">
+					<p style="font-size: 1.2rem" class="nowrap">Chaotic Destiny's Minecraft and Discord Bot Hosting locations</p>
+					<p style="font-size: 1.1rem;"><b>Missouri</b>, United States</p>
+					<p style="font-size: 1.1rem;"><b>Bayern</b>, Germany</p>
+				</div>
+				<div class="float-right">
+					<div class="map-container">
+						<img class="map" src="Resources/Media/map.png" alt="map" draggable="false">
+						<div style="top: 43%; left: 19%;" class="mark"></div>
+						<div style="top: 38.5%; left: 48.5%;" class="mark"></div>
 					</div>
 				</div>
 			</div>
