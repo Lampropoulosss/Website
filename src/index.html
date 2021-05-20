@@ -42,6 +42,26 @@
 			padding: 5% 0;
 		}
 
+		.location-description {
+			display: none;
+			width: 125px;
+			align-items: center;
+			justify-content: space-between;
+			color: gold;
+			background-color: rgba(0, 0, 0, 0.7);
+			border-radius: 10px;
+			padding: 5px;
+		}
+		.location-description img {
+			height: 30px;
+			width: 45px;
+			border-radius: 5px;
+		}
+
+		.mark:hover + .location-description {
+			display: flex;
+		}
+
 		.map {
 			width: 100%;
 		}
@@ -448,7 +468,15 @@
 					<div class="map-container">
 						<img class="map" src="Resources/Media/map.png" alt="map" draggable="false">
 						<div style="top: 43%; left: 19%;" class="mark"></div>
+						<div class="location-description" style="position: absolute; top: 41%; left: 23%;">
+							<p>Missouri</p>
+							<img src="Resources/Media/us-flag.png" alt="USA Flag">
+						</div>
 						<div style="top: 38.5%; left: 48.5%;" class="mark"></div>
+						<div class="location-description" style="position: absolute; top: 36.5%; left: 52.5%;">
+							<p>Bayern</p>
+							<img src="Resources/Media/germany-flag.png" alt="Germany Flag">
+						</div>
 					</div>
 				</div>
 			</div>
