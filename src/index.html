@@ -39,8 +39,31 @@
 	<style>
 
 		.whyCDH {
-			padding: 5% 0;
+			margin-top: 5%;
+			width: 100%;
 		}
+
+		.whyCDH .container div {
+			clear: both;
+			padding: 50px 10px;
+			width: 100%;
+			margin: 20px 0;
+			border-radius: 10px;
+		}
+
+		.whyCDH h3 {
+			font-size: 1.6rem;
+		}
+
+		.whyCDH h3 + p {
+			font-size: 1.1rem;
+		}
+
+		.whyCDH .container div:nth-child(even) {
+			float: right;
+			text-align: right;
+		}
+
 		.location-description {
 			display: none;
 			width: 125px;
@@ -379,7 +402,7 @@
 	<main>
 		<section class="whyCDH">
 			<h2>WHY CHAOTIC DESTINY?</h2>
-			<div class="grid-3x">
+			<div class="container">
 				<div>
 					<h3><i class="fas fa-headphones"></i>Support</h3>
 					<p>Whatever the issue may be we're here to help you out with our humble support team!</p>
@@ -399,9 +422,6 @@
 				<div>
 					<h3><i class="far fa-clock"></i>Uptime</h3>
 					<p>Service Uptime is also one of our top priorities. We will try to keep your service online no matter what costs.</p>
-				</div>
-				<div>
-
 				</div>
 			</div>
 		</section>
