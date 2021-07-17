@@ -44,11 +44,10 @@
 		}
 
 		.whyCDH .container div {
-			clear: both;
-			padding: 50px 10px;
-			width: 100%;
-			margin: 20px 0;
+			padding: 25px 20px;
+			margin: 30px 20px;
 			border-radius: 10px;
+			background-color: rgb(40, 40, 40);
 		}
 
 		.whyCDH h3 {
@@ -60,7 +59,6 @@
 		}
 
 		.whyCDH .container div:nth-child(even) {
-			float: right;
 			text-align: right;
 		}
 
@@ -328,7 +326,17 @@
 			footer {
 				margin-top: 20px;
 			}
+
 		}
+
+		/*.test-overlay {
+			position: absolute;
+			top: 0;
+			z-index: -1;
+			background-image: linear-gradient(to bottom left, rgba(255, 215, 0, 0), rgba(0, 0, 0, 1));
+			height: 100%;
+			width: 100%;
+		}*/
 
 	</style>
 
@@ -391,10 +399,9 @@
 
 	<header>
 		<div id="nav"></div>
-		<div class="overlay">
-			<h1 class="h1"><span class="typing"></span></h1>
-			<p class="p">Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free and 99% uptime hosting.</p>
-		</div>
+		<h1 class="h1"><span class="typing"></span></h1>
+		<p class="p">Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free and 99% uptime hosting.</p>
+		<div class="test-overlay"></div>
 	</header>
 
 	<!-- Website Content -->
@@ -404,23 +411,23 @@
 			<h2>WHY CHAOTIC DESTINY?</h2>
 			<div class="container">
 				<div>
-					<h3><i class="fas fa-headphones"></i>Support</h3>
+					<h3><i class="fas fa-headphones gold"></i><span class="gold">Support</span></h3>
 					<p>Whatever the issue may be we're here to help you out with our humble support team!</p>
 				</div>
 				<div>
-					<h3><i class="fas fa-server"></i>Pterodactyl Panel</h3>
+					<h3><i class="fas fa-server gold"></i><span class="gold">Pterodactyl Panel</span></h3>
 					<p>Our panel has a very sleek design, which makes it easier to use than any other hosting!</p>
 				</div>
 				<div>
-					<h3><i class="fas fa-user-shield"></i>Security</h3>
+					<h3><i class="fas fa-user-shield gold"></i><span class="gold">Security</span></h3>
 					<p>Keeping your information secure is our top priority. We do not store sensitive information.</p>
 				</div>
 				<div>
-					<h3><i class="fas fa-wallet"></i>Budget</h3>
+					<h3><i class="fas fa-wallet gold"></i><span class="gold">Budget</span></h3>
 					<p>Our goal is to provide high-quality services, which are available for anyone's budgets.</p>
 				</div>
 				<div>
-					<h3><i class="far fa-clock"></i>Uptime</h3>
+					<h3><i class="far fa-clock gold"></i><span class="gold">Uptime</span></h3>
 					<p>Service Uptime is also one of our top priorities. We will try to keep your service online no matter what costs.</p>
 				</div>
 			</div>
