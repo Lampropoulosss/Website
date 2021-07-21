@@ -37,15 +37,6 @@
 	<!-- Styles -->
 
 	<style type="text/css">
-
-		#header {
-			color: gold;
-			text-align: center;
-			font-size: 2rem;
-			font-weight: 600;
-			margin: 40px 0;
-		}
-
 		.grid-x1 {
 			display: grid;
 			grid-template-rows: 1fr;
@@ -114,83 +105,8 @@
 				window[1].document.getElementById('tawkchat-minified-wrapper').click()
 			});
 		</script>
-		<script>
-			window.addEventListener('load', async (event) => {
-				let hide = false;
-				$(".icon").click(async function() {
-					if (!hide) {
-						$(".h1").hide();
-						$('.p').hide();
-						hide = true;
-					} else {
-						$(".h1").show();
-						$('.p').show();
-						hide = false;
-					}
-				})
-				var typed = new Typed('.typing', {
-					strings: [
-					'Discord Bot',
-					'Virtual Server',
-					'Minecraft Server',
-					],
-					stringsElement: null,
-					typeSpeed: 50,
-					startDelay: 0,
-					backSpeed: 50,
-					smartBackspace: true,
-					shuffle: false,
-					backDelay: 700,
-					fadeOut: false,
-					fadeOutClass: 'typed-fade-out',
-					fadeOutDelay: 500,
-					loop: true,
-					loopCount: Infinity,
-					showCursor: true,
-					cursorChar: '|',
-					autoInsertCss: true,
-					attr: null,
-					bindInputFocusEvents: false,
-					contentType: 'html',
-				})
-				var typed = new Typed('.typingp', {
-					strings: [
-					'<a href="pricing.html">pricing page</a>',
-					'<a href="">billing page</a>',
-					'<a href="about-us.html">about us page</a>',
-					'<a href="">status page</a>',
-					],
-					stringsElement: null,
-					typeSpeed: 50,
-					startDelay: 0,
-					backSpeed: 50,
-					smartBackspace: true,
-					shuffle: false,
-					backDelay: 5000,
-					fadeOut: false,
-					fadeOutClass: 'typed-fade-out',
-					fadeOutDelay: 500,
-					loop: true,
-					loopCount: Infinity,
-					showCursor: true,
-					cursorChar: '|',
-					autoInsertCss: true,
-					attr: null,
-					bindInputFocusEvents: false,
-					contentType: 'html',
-				})
-			});
-		</script>
 	</head>
 	<body>
-
-		<!-- Navbar -->
-
-		<header>
-			<div id="nav"></div>
-			<h1 class="h1">We host your <span class="typing"></span></h1>
-			<p class="p">You're currently browsing our contact us page, try checking our <span class="typingp"></span></p>
-		</header>
 
 		<!-- Website Content -->
 
