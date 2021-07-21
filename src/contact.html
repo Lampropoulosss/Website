@@ -37,6 +37,15 @@
 	<!-- Styles -->
 
 	<style type="text/css">
+
+		#header {
+			color: gold;
+			text-align: center;
+			font-size: 2rem;
+			font-weight: 600;
+			margin: 40px 0;
+		}
+
 		.grid-x1 {
 			display: grid;
 			grid-template-rows: 1fr;
@@ -103,6 +112,22 @@
 		<script>
 			document.getElementById('slc').addEventListener("click", () => {
 				window[1].document.getElementById('tawkchat-minified-wrapper').click()
+			});
+		</script>
+		<script>
+			window.addEventListener('load', async (event) => {
+				let hide = false;
+				$(".icon").click(async function() {
+					if (!hide) {
+						$(".h1").hide();
+						$('.p').hide();
+						hide = true;
+					} else {
+						$(".h1").show();
+						$('.p').show();
+						hide = false;
+					}
+				})
 			});
 		</script>
 	</head>
