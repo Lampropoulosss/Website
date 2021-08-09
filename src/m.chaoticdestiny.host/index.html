@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+	
+	<!-- Meta Tags -->
+
+	<meta name="title" content="Chaotic Destiny Hosting">
+	<meta property="og:title" content="Chaotic Destiny Hosting">
+	<meta name="description" content="Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free machines and 99% uptime hosting.">
+	<meta http-equiv="content-type" content="text/html">
+	<meta http-equiv="content-language" content="en-US">
+	<meta name="copyright" content="&copy; 2020 - 2021 Chaotic Destiny Hosting">
+	<meta name="theme-color" content="#FFD700">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="chaotic destiny, minecraft hosting, bot hosting, vps">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:url" content="https://chaoticdestiny.host">
+	<meta property="og:type" content="company">
+	<meta property="og:description" content="Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free machines and 99% uptime hosting.">
+	<meta property="og:image" content="https://cdn.discordapp.com/attachments/787746055504527380/832572094868881438/cdhLogo.jpg">
+
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="Resources/CSS/app.css">
+
+	<!-- External Stylesheets -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+	<!-- Other -->
+
+	<link rel="shortcut icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/697076562193023027/737693167196831914/xd.png.jpg">
+	<title>Chaotic Destiny | Home</title>
+
+	<!-- Styles -->
+
+	<style>
+
+		.whyCDH {
+			margin-top: 5%;
+			width: 100%;
+		}
+
+		.whyCDH .container div {
+			padding: 25px 20px;
+			margin: 30px 20px;
+			border-radius: 10px;
+			background-color: rgb(40, 40, 40);
+		}
+
+		.whyCDH h3 {
+			font-size: 1.6rem;
+		}
+
+		.whyCDH h3 + p {
+			font-size: 1.1rem;
+		}
+
+		.whyCDH .container div:nth-child(even) {
+			text-align: right;
+		}
+
+		.location-description {
+			display: none;
+			width: 125px;
+			align-items: center;
+			justify-content: space-between;
+			color: gold;
+			background-color: rgba(0, 0, 0, 0.7);
+			border-radius: 10px;
+			padding: 5px;
+		}
+		.location-description img {
+			height: 30px;
+			width: 45px;
+			border-radius: 5px;
+		}
+
+		.mark:hover + .location-description {
+			display: flex;
+		}
+
+		.map {
+			width: 95%;
+			margin: 0 auto;
+		}
+
+		.map-container {
+			position: relative;
+		}
+
+		.container {
+			max-width: 1100px;
+			margin: 0 auto;
+		}
+
+		.mark {
+			display: block;
+			cursor: pointer;
+			position: absolute;
+			background-color: gold;
+			border-radius: 50%;
+			height: .8rem;
+			width: .8rem;
+			text-decoration: none;
+			text-shadow: gold #000;
+			animation: shadow-pulse 1.5s infinite;
+		}
+
+		@-webkit-keyframes shadow-pulse {
+			0% {
+				-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+			}
+			70% {
+				-webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+			}
+			100% {
+				-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+			}
+		}
+		@keyframes shadow-pulse {
+			0% {
+				-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+				box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+			}
+			70% {
+				-moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+				box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+			}
+			100% {
+				-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+				box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+			}
+		}
+
+		footer {
+			margin-top: 30px;
+		}
+
+		.map {
+			width: 95%;
+			margin: 0 auto;
+		}
+
+		.whyCDH > h2, .pricing > h2, .locations > h2 {
+			color: gold;
+			font-weight: 600;
+			font-size: 1.9rem;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.nowrap {
+			white-space: nowrap;
+		}
+
+		.locations > h2 {
+			margin-top: 50px;
+		}
+
+		.whyCDH h3 {
+			font-size: 1.5rem;
+		}
+
+		.grid-3x {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-column-gap: 20px;
+			grid-row-gap: 30px;
+			text-align: center;
+			padding: 0 5%;
+		}
+
+		i[class^=fa] {
+			padding-right: 5px;
+		}
+
+		.pricing .grid-container {
+			max-width: 1100px;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			justify-content: center;
+			grid-gap: 4%;
+			margin: 0 auto;
+		}
+
+		.pricing .grid-container .card {
+			border: 3px solid gold;
+			border-radius: 10px;
+			height: 420px;
+			padding-bottom: 10px;
+			margin-bottom: 50px;
+			display: grid;
+			align-content: space-between;
+			text-align: center;
+			transition: transform 250ms ease-in-out, border-color 250ms ease-in-out;
+		}
+
+		.pricing .grid-container .buy-now:hover {
+			background-color: rgb(35, 35, 35);
+			transform: scale(0.98);
+			border-color: #ff726f;
+			cursor: pointer;
+		}
+
+		.pricing .grid-container .card:hover {
+			transform: translateY(-10px);
+			border-color: #ff726f;
+		}
+
+		.pricing .grid-container .card .card-top h3 {
+			font-size: 1.5rem;
+			margin: 15px 0;
+		}
+
+		.pricing .grid-container .card .card-bottom h4 {
+			margin-bottom: 20px;
+			font-size: 1.2rem;
+		}
+
+		.pricing .grid-container .buy-now {
+			border-radius: 5px;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 2px solid gold;
+			transition: border-color 0.5s;
+			text-decoration: none;
+			color: #fff;
+			display: inline-block;
+			font-size: 1.2rem;
+		}
+
+		.pricing .line1 {
+			width: 184px;
+		}
+
+		.pricing .line2 {
+			width: 210px;
+		}
+
+		.pricing .line3 {
+			width: 135px;
+		}
+
+		/* Line */
+
+		.pricing .line {
+			height: 1px;
+			margin: 0 auto;
+			margin-bottom: 30px;
+			border: none;
+			border-radius: 10px;
+			position: static;
+			background: linear-gradient(124deg, gold, white, #ff726f);
+			background-size: 1000% 1000%;
+
+			-webkit-animation: rainbow 3s linear infinite;
+			-z-animation: rainbow 3s linear infinite;
+			-o-animation: rainbow 3s linear infinite;
+			animation: rainbow 3s linear infinite;
+		}
+
+		@-webkit-keyframes rainbow {
+			0% {
+				background-position: 0% 82%;
+			}
+			50% {
+				background-position: 100% 19%;
+			}
+			100% {
+				background-position: 0% 82%;
+			}
+		}
+		@-moz-keyframes rainbow {
+			0% {
+				background-position: 0% 82%;
+			}
+			50% {
+				background-position: 100% 19%;
+			}
+			100% {
+				background-position: 0% 82%;
+			}
+		}
+		@-o-keyframes rainbow {
+			0% {
+				background-position: 0% 82%;
+			}
+			50% {
+				background-position: 100% 19%;
+			}
+			100% {
+				background-position: 0% 82%;
+			}
+		}
+		@keyframes rainbow {
+			0% {
+				background-position: 0% 82%;
+			}
+			50% {
+				background-position: 100% 19%;
+			}
+			100% {
+				background-position: 0% 82%;
+			}
+		}
+
+		@media only screen and (max-width: 968px) {
+
+			.pricing .grid-container {
+				display: block;
+			}
+
+			.pricing .card {
+				width: 90%;
+				margin: 30px auto;
+			}
+
+			footer {
+				margin-top: 20px;
+			}
+
+		}
+
+	</style>
+
+	<!-- Scripts -->
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script> 
+		$(function(){
+			$("#nav").load("Resources/Other/NavigationBar.html"); 
+			$("#footer").load("Resources/Other/Footer.html"); 
+		});
+	</script>
+	<script>
+		window.addEventListener('load', async (event) => {
+			let hide = false;
+			$(".icon").click(async function() {
+				if (!hide) {
+					$(".h1").hide();
+					$('.p').hide();
+					hide = true;
+				} else {
+					$(".h1").show();
+					$('.p').show();
+					hide = false;
+				}
+			})
+			var typed = new Typed('.typing', {
+				strings: [
+				'Welcome to Chaotic Destiny Hosting',
+				'We host your discord Bot',
+				'We host your Virtual Server',
+				'We host your Minecraft Server',
+				],
+				stringsElement: null,
+				typeSpeed: 50,
+				startDelay: 0,
+				backSpeed: 50,
+				smartBackspace: true,
+				shuffle: false,
+				backDelay: 700,
+				fadeOut: false,
+				fadeOutClass: 'typed-fade-out',
+				fadeOutDelay: 500,
+				loop: true,
+				loopCount: Infinity,
+				showCursor: true,
+				cursorChar: '|',
+				autoInsertCss: true,
+				attr: null,
+				bindInputFocusEvents: false,
+				contentType: 'html',
+			})
+		});
+	</script>
+</head>
+<body>
+
+	<!-- Navbar -->
+
+	<header>
+		<div id="nav"></div>
+			<h1 class="h1"><span class="typing"></span></h1>
+			<p class="p">Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free and 99% uptime hosting.</p>
+	</header>
+
+	<!-- Website Content -->
+
+	<main>
+		<section class="whyCDH">
+			<h2>WHY CHAOTIC DESTINY?</h2>
+			<div class="container">
+				<div>
+					<h3><i class="fas fa-headphones gold"></i><span class="gold">Support</span></h3>
+					<p>Whatever the issue may be we're here to help you out with our humble support team!</p>
+				</div>
+				<div>
+					<h3><i class="fas fa-server gold"></i><span class="gold">Pterodactyl Panel</span></h3>
+					<p>Our panel has a very sleek design, which makes it easier to use than any other hosting!</p>
+				</div>
+				<div>
+					<h3><i class="fas fa-user-shield gold"></i><span class="gold">Security</span></h3>
+					<p>Keeping your information secure is our top priority. We do not store sensitive information.</p>
+				</div>
+				<div>
+					<h3><i class="fas fa-wallet gold"></i><span class="gold">Budget</span></h3>
+					<p>Our goal is to provide high-quality services, which are available for anyone's budgets.</p>
+				</div>
+				<div>
+					<h3><i class="far fa-clock gold"></i><span class="gold">Uptime</span></h3>
+					<p>Service Uptime is also one of our top priorities. We will try to keep your service online no matter what costs.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="pricing">
+			<h2>WHAT DO WE OFFER?</h2>
+			<div class="grid-container">
+				<div class="card">
+					<div class="card-top">
+						<h3>Premium <br>Discord Bot Hosting</h3>
+						<hr class="line line2">
+						<p><i class="fas fa-globe"></i> NA Location</p>
+						<p><i class="fas fa-desktop"></i> Pterodactyl Panel</p>
+						<p><i class="fas fa-shield-alt"></i> DDoS Protection</p>
+						<p><i class="fas fa-database"></i> Free Databases</p>
+						<p><i class="fas fa-undo"></i> Free Backups</p>
+						<p><i class="fas fa-folder"></i> SFTP Access</p>
+						<p><i class="fas fa-ticket-alt"></i> 24 / 7 Support</p>
+					</div>
+					<div class="card-bottom">
+						<a href="discord-bot-hosting.html" class="buy-now">View Plans</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-top">
+						<h3>Budget <br>Minecraft Hosting</h3>
+						<hr class="line line1">
+						<p><i class="fas fa-globe"></i> EU Location</p>
+						<p><i class="fas fa-desktop"></i> Pterodactyl Panel</p>
+						<p><i class="fas fa-shield-alt"></i> DDoS Protection</p>
+						<p><i class="fas fa-infinity"></i> Unlimited Slots</p>
+						<p><i class="fas fa-database"></i> Free Databases / Backups</p>
+						<p><i class="fas fa-folder"></i> SFTP Access</p>
+						<p><i class="fas fa-ticket-alt"></i> 24 / 7 Support</p>
+					</div>
+					<div class="card-bottom">
+						<a href="mc-hosting.html" class="buy-now">View Plans</a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-top">
+						<h3>Lifetime <br> Discord Bot Hosting</h3>
+						<hr class="line line2">
+						<p><i class="fas fa-globe"></i> NA Location</p>
+						<p><i class="fas fa-desktop"></i> Pterodactyl Panel</p>
+						<p><i class="fas fa-shield-alt"></i> DDoS Protection</p>
+						<p><i class="fas fa-database"></i> Free Databases</p>
+						<p><i class="fas fa-undo"></i> Free Backups</p>
+						<p><i class="fas fa-folder"></i> SFTP Access</p>
+						<p><i class="fas fa-ticket-alt"></i> 24 / 7 Support</p>
+					</div>
+					<div class="card-bottom">
+						<a href="lifetime-discord-bot-hosting.html" class="buy-now">View Plans</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="locations">
+			<h2>OUR LOCATIONS</h2>
+			<div class="container">
+				<div class="map">
+					<div class="map-container">
+						<img class="map" src="Resources/Media/map.png" alt="map" draggable="false">
+						<div style="top: 43%; left: 19%;" class="mark"></div>
+						<div class="location-description" style="position: absolute; top: 41%; left: 23%;">
+							<p>Missouri</p>
+							<img src="Resources/Media/us-flag.png" alt="USA Flag">
+						</div>
+						<div style="top: 38.5%; left: 48.5%;" class="mark"></div>
+						<div class="location-description" style="position: absolute; top: 36.5%; left: 52.5%;">
+							<p>Bayern</p>
+							<img src="Resources/Media/germany-flag.png" alt="Germany Flag">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+
+	<div id="footer"></div>
+
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/5ec24df4967ae56c521ac732/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+
+</body>
+</html>

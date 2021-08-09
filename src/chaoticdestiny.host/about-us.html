@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+
+	<script>
+		window.onload = () => {
+			if (window.innerWidth <= 968) {
+				location.href = "https://m.chaoticdestiny.host";
+			};
+		};
+	</script>
+	
+	<!-- Meta Tags -->
+
+	<meta name="title" content="Chaotic Destiny Hosting">
+	<meta property="og:title" content="Chaotic Destiny Hosting">
+	<meta name="description" content="Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free machines and 99% uptime hosting.">
+	<meta http-equiv="content-type" content="text/html">
+	<meta http-equiv="content-language" content="en-US">
+	<meta name="copyright" content="&copy; 2020 - 2021 Chaotic Destiny Hosting">
+	<meta name="theme-color" content="#FFD700">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="chaotic destiny, minecraft hosting, bot hosting, vps">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:url" content="https://chaoticdestiny.host">
+	<meta property="og:type" content="company">
+	<meta property="og:description" content="Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free machines and 99% uptime hosting.">
+	<meta property="og:image" content="https://cdn.discordapp.com/attachments/787746055504527380/832572094868881438/cdhLogo.jpg">
+
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="Resources/CSS/app.css">
+	
+	<!-- External Stylesheets -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+	<!-- Other -->
+
+	<link rel="shortcut icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/697076562193023027/737693167196831914/xd.png.jpg">
+	<title>Chaotic Destiny | About us</title>
+
+	<!-- Styles -->
+
+	<style>
+
+		#header {
+			color: gold;
+			text-align: center;
+			font-size: 2rem;
+			font-weight: 600;
+			margin: 40px 0;
+		}
+
+		.grid-container {
+			max-width: 95%;
+			margin: 50px auto;
+			display: grid;
+			grid-template-columns: 3fr 1fr;
+		}
+
+		.flex {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			justify-content: left;
+			align-items: center;
+			height: 100%;
+		}
+
+		.logo img {
+			width: 80%;
+			height: 80%;
+			border-radius: 5px;
+		}
+
+		.logo {
+			text-align: center;
+		}
+
+		main h3 {
+			color: #ff726f;
+			font-size: 1.4rem;
+			font-weight: 600;
+			margin: 20px auto;
+		}
+
+		main h4 {
+			color: #ff726f;
+			font-size: 1.1rem;
+			font-weight: 600;
+			margin: 20px auto;
+		}
+
+		main p {
+			font-size: 1.1rem;
+		}
+
+		.department div {
+			margin-left: 20px;
+			text-align: center;
+		}
+
+		.department div img {
+			border-radius: 10px;
+			width: 128px;
+			height: 128px;
+		}
+
+		.department div h5 {
+			color: gold;
+			font-size: 1.1rem;
+		}
+
+		.department div p {
+			font-size: 0.9rem;
+		}
+
+		@media only screen and (max-width: 968px) {
+			.grid-container {
+				grid-template-columns: 1fr;
+			}
+
+			.logo img {
+				display: none;
+			}
+		}
+
+	</style>
+
+	<!-- Scripts -->
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script> 
+		$(function(){
+			$("#nav").load("Resources/Other/NavigationBar.html"); 
+			$("#footer").load("Resources/Other/Footer.html"); 
+		});
+	</script>
+	<script>
+		window.addEventListener('load', async (event) => {
+			let hide = false;
+			$(".icon").click(async function() {
+				if (!hide) {
+					$(".h1").hide();
+					$('.p').hide();
+					hide = true;
+				} else {
+					$(".h1").show();
+					$('.p').show();
+					hide = false;
+				}
+			})
+			var typed = new Typed('.typing', {
+				strings: [
+				'Discord Bot',
+				'Virtual Server',
+				'Minecraft Server',
+				],
+				stringsElement: null,
+				typeSpeed: 50,
+				startDelay: 0,
+				backSpeed: 50,
+				smartBackspace: true,
+				shuffle: false,
+				backDelay: 700,
+				fadeOut: false,
+				fadeOutClass: 'typed-fade-out',
+				fadeOutDelay: 500,
+				loop: true,
+				loopCount: Infinity,
+				showCursor: true,
+				cursorChar: '|',
+				autoInsertCss: true,
+				attr: null,
+				bindInputFocusEvents: false,
+				contentType: 'html',
+			})
+			var typed = new Typed('.typingp', {
+				strings: [
+				'<a href="pricing.html">pricing page...</a>',
+				'<a href="">billing page...</a>',
+				'<a href="contact.html">contact us page...</a>',
+				'<a href="">status page...</a>',
+				],
+				stringsElement: null,
+				typeSpeed: 50,
+				startDelay: 0,
+				backSpeed: 50,
+				smartBackspace: true,
+				shuffle: false,
+				backDelay: 5000,
+				fadeOut: false,
+				fadeOutClass: 'typed-fade-out',
+				fadeOutDelay: 500,
+				loop: true,
+				loopCount: Infinity,
+				showCursor: true,
+				cursorChar: '|',
+				autoInsertCss: true,
+				attr: null,
+				bindInputFocusEvents: false,
+				contentType: 'html',
+			})
+		});
+	</script>
+</head>
+<body>
+
+	<!-- Navbar -->
+
+	<header>
+		<div id="nav"></div>
+		<h1 class="h1">We host your <span class="typing"></span></h1>
+		<p class="p">You're currently browsing our about us page, try checking our <span class="typingp"></span></p>
+	</header>
+
+	<!-- Website Content -->
+
+	<main>
+		<h2 id="header">ABOUT US</h2>
+		<div class="grid-container">
+			<div>
+				<div class="mission">
+					<h3>OUR MISSION</h3>
+					<p>Our mission is to expand and provide reliable services as many customers as possible at cheap and nearly unbeatable prices. We aim to provide those services with great quality to ensure you're satisfied with what you obtain.</p>
+					<p>Our goods and services are ensured to be secured, good and our main goal is to skyrocket to the moon as fast as possible to beat those huge companies that believe that competing against is impossible.</p>
+					<p>We ensure safety a first step and our mission to be as important as securing our customers is</p>
+				</div>
+				<div class="story">
+					<h3>OUR STORY</h3>
+					<p>Chaotic Destiny Hosting was found on January the 1st of 2020.</p>
+					<p>Chaotic Destiny Hosting originally started as a Minecraft server, but then shortly after noticed that there were no hosting companies that full-filled our hosting needs like uptime, features and much more...</p>
+					<p>We started from scratch and left the minecraft industry for a bit to provide free discord bot hosting while we decide our minecraft plans to ensure they are better than any other hosting and are permanently available for everyone.</p>
+				</div>
+				<div class="team">
+					<h3>OUR TEAM</h3>
+					<h4>MANAGEMENT</h4>
+					<section class="department flex">
+						<div>
+							<img src="https://cdn.discordapp.com/avatars/330091120191209472/2ae905945e1ac1b8fef0bddc4ebfba8a.png" alt="Leaf L. Avatar">
+							<h5>Leaf L.</h5>
+							<p>Founder</p>
+						</div>
+					</section>
+					<h4>DEPARTMENT HEAD</h4>
+					<section class="department flex">
+						<div>
+							<img src="https://cdn.discordapp.com/avatars/391702686027743232/ce25491e46bba4796b97cd1aef0441ad.png" alt="Jakob H. Avatar">
+							<h5>Jakob H.</h5>
+							<p>Support Manager</p>
+						</div>
+						<div>
+							<img src="https://cdn.discordapp.com/attachments/787746055504527380/832349552895590447/R6b28d7fb925370efd08537f2cf29be78.png" alt="Ben W. Avatar">
+							<h5>Ben W.</h5>
+							<p>Marketing Manager</p>
+						</div>
+						<div>
+							<img src="https://cdn.discordapp.com/avatars/654429117923721256/452dcc3a808dfebf414318e09d3c52e3.webp" alt="John L. Avatar">
+							<h5>John L.</h5>
+							<p>Support Manager</p>
+						</div>
+					</section>
+					<h4>COMPLIANCE</h4>
+					<section class="department flex">
+						<div>
+							<img src="https://cdn.discordapp.com/avatars/563334001687920660/9f0aac8059c7bb360a1e795293b14004.png" alt="Osher K. Avatar">
+							<h5>Osher K.</h5>
+							<p>Compliance</p>
+						</div>
+						<div>
+							<img src="https://cdn.discordapp.com/avatars/638766162674581537/a_060015e8ce787ecdb1603363a1230994.gif" alt="Virtual H. Avatar">
+							<h5>Virtual H.</h5>
+							<p>Compliance</p>
+						</div>
+					</section>
+					<h4>SUPPORT SUPERVISOR</h4>
+					<section class="department flex">
+						<div>
+							<img src="https://cdn.discordapp.com/avatars/416477607966670869/b8c138a398c8425e4b1d9a4ca73fd317.png" alt="Luke D. Avatar">
+							<h5>Luke D.</h5>
+							<p>Support Supervisor</p>
+						</div>
+						<div>
+							<img src="https://cdn.discordapp.com/avatars/822790466541715468/f06b9d48c2afc9034708528b2d945b6a.png" alt="Shoot D. Avatar">
+							<h5>Shoot D.</h5>
+							<p>Support Supervisor</p>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div>
+				<div class="logo">
+					<img src="https://images-ext-2.discordapp.net/external/JgqHRpm3cJ21XwmHYVZ_CeFdklys9-IcFHX9sp8w3s8/https/cdn.discordapp.com/icons/610767680009535488/a_4c28a380afee70db20429cba1cbfc37d.gif" alt="Chaotic Destiny Logo">
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<!-- Footer -->
+
+	<div id="footer"></div>
+
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/5ec24df4967ae56c521ac732/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+
+</body>
+</html>
