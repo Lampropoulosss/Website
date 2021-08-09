@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+	<!-- Meta Tags -->
+
+	<meta name="title" content="Chaotic Destiny Hosting">
+	<meta property="og:title" content="Chaotic Destiny Hosting">
+	<meta name="description"
+	content="Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free machines and 99% uptime hosting.">
+	<meta http-equiv="content-type" content="text/html">
+	<meta http-equiv="content-language" content="en-US">
+	<meta name="copyright" content="&copy; 2020 - 2021 Chaotic Destiny Hosting">
+	<meta name="theme-color" content="#FFD700">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="chaotic destiny, minecraft hosting, bot hosting, vps">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:url" content="https://chaoticdestiny.host">
+	<meta property="og:type" content="company">
+	<meta property="og:description"
+	content="Stop spending loads of money on hosts with downtime and lag, when you can spend a low amount on our lag free machines and 99% uptime hosting.">
+	<meta property="og:image"
+	content="https://cdn.discordapp.com/attachments/787746055504527380/832572094868881438/cdhLogo.jpg">
+
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="Resources/CSS/app.css">
+
+	<!-- External Stylesheets -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+	crossorigin="anonymous" />
+
+	<!-- Other -->
+
+	<link rel="shortcut icon" type="image/x-icon"
+	href="https://cdn.discordapp.com/attachments/697076562193023027/737693167196831914/xd.png.jpg">
+	<title>Chaotic Destiny | Minecraft Hosting</title>
+
+	<!-- Styles -->
+
+	<style type="text/css">
+		#header {
+			color: gold;
+			text-align: center;
+			font-size: 2rem;
+			font-weight: 600;
+			margin: 40px 0;
+		}
+
+		main {
+			margin: 50px;
+		}
+
+		footer {
+			margin-top: 300px;
+		}
+
+		h2.main-heading {
+			font-size: 2.2rem;
+			margin: 50px 0;
+			text-align: center;
+		}
+
+		.container {
+			max-width: 1100px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.grid-container {
+			max-width: 1100px;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			justify-content: center;
+			grid-column-gap: 4%;
+			grid-row-gap: 2%;
+			margin: 0 auto;
+		}
+
+		.grid-container .card {
+			border: 3px solid gold;
+			border-radius: 10px;
+			height: 520px;
+			display: grid;
+			align-content: space-between;
+			text-align: center;
+			transition: transform 250ms ease-in-out, border-color 250ms ease-in-out;
+		}
+
+		.grid-container .card:hover {
+			transform: translateY(-10px);
+			border-color: #ff726f;
+		}
+
+		.grid-container .card .card-top h3 {
+			font-size: 1.5rem;
+			margin-bottom: 25px;
+		}
+
+		.grid-container .card .card-bottom h4 {
+			margin-bottom: 20px;
+			font-size: 1.2rem;
+		}
+
+		.grid-container hr {
+			width: 90%;
+			margin: 20px auto;
+		}
+
+		.grid-container .buy-now {
+			border-radius: 5px;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 2px solid gold;
+			transition: border-color 0.5s;
+			text-decoration: none;
+			color: #fff;
+			display: inline-block;
+			font-size: 1.2rem;
+		}
+
+		.grid-container .buy-now:hover,
+		.price-change button:hover {
+			background-color: rgb(35, 35, 35);
+			transform: scale(0.98);
+			border-color: #ff726f;
+		}
+
+		.slider-container {
+			width: 50%;
+			margin-bottom: 15px;
+		}
+
+		#plan {
+			margin: 10px auto;
+			font-size: 1.3rem;
+			text-transform: uppercase;
+		}
+
+		.slider {
+			border-radius: 10px;
+			-webkit-appearance: none;
+			appearance: none;
+			width: 70%;
+			height: 25px;
+			background: #d3d3d3;
+			outline: none;
+			opacity: 0.8;
+			-webkit-transition: .2s;
+			transition: opacity .2s;
+		}
+
+		.slider:hover {
+			opacity: 1;
+		}
+
+		.slider::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 20px;
+			height: 20px;
+			background: gold;
+			cursor: pointer;
+			border-radius: 10px;
+		}
+
+		.slider::-moz-range-thumb {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 20px;
+			height: 20px;
+			background: gold;
+			cursor: pointer;
+		}
+
+		@media only screen and (max-width: 968px) {
+
+			section.grid-container {
+				display: block;
+			}
+
+			.card {
+				width: 90%;
+				margin: 30px auto;
+			}
+
+			footer {
+				margin-top: 20px;
+			}
+
+			.slider {
+				width: 100%;
+			}
+		}
+	</style>
+
+	<!-- Scripts -->
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(function () {
+			$("#nav").load("Resources/Other/NavigationBar.html");
+			$("#footer").load("Resources/Other/Footer.html");
+		});
+	</script>
+	<script>
+		window.addEventListener('load', async (event) => {
+			let hide = false;
+			document.getElementById('mp1b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=52&billingcycle=monthly'
+			document.getElementById('mp2b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=60&billingcycle=monthly'
+			document.getElementById('mp3b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=61&billingcycle=monthly'
+			document.getElementById('mp4b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=62&billingcycle=monthly'
+			document.getElementById('mp5b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=63&billingcycle=monthly'
+			document.getElementById('mp6b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=64&billingcycle=monthly'
+			document.getElementById('mp7b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=65&billingcycle=monthly'
+			document.getElementById('mp8b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=66&billingcycle=monthly'
+			document.getElementById('mp9b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=67&billingcycle=monthly'
+			document.getElementById('mp10b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=68&billingcycle=monthly'
+			document.getElementById('mp11b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=69&billingcycle=monthly'
+			document.getElementById('mp12b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=70&billingcycle=monthly'
+			$(".icon").click(async function () {
+				if (!hide) {
+					$(".h1").hide();
+					$('.p').hide();
+					hide = true;
+				} else {
+					$(".h1").show();
+					$('.p').show();
+					hide = false;
+				}
+			})
+			var typed = new Typed('.typing', {
+				strings: [
+				'Discord Bot',
+				'Virtual Server',
+				'Minecraft Server',
+				],
+				stringsElement: null,
+				typeSpeed: 50,
+				startDelay: 0,
+				backSpeed: 50,
+				smartBackspace: true,
+				shuffle: false,
+				backDelay: 700,
+				fadeOut: false,
+				fadeOutClass: 'typed-fade-out',
+				fadeOutDelay: 500,
+				loop: true,
+				loopCount: Infinity,
+				showCursor: true,
+				cursorChar: '|',
+				autoInsertCss: true,
+				attr: null,
+				bindInputFocusEvents: false,
+				contentType: 'html',
+			})
+			var typed = new Typed('.typingp', {
+				strings: [
+				'<a href="contact.html">contact page</a>',
+				'<a href="">billing page</a>',
+				'<a href="about-us.html">about us page</a>',
+				'<a href="">status page</a>',
+				],
+				stringsElement: null,
+				typeSpeed: 50,
+				startDelay: 0,
+				backSpeed: 50,
+				smartBackspace: true,
+				shuffle: false,
+				backDelay: 5000,
+				fadeOut: false,
+				fadeOutClass: 'typed-fade-out',
+				fadeOutDelay: 500,
+				loop: true,
+				loopCount: Infinity,
+				showCursor: true,
+				cursorChar: '|',
+				autoInsertCss: true,
+				attr: null,
+				bindInputFocusEvents: false,
+				contentType: 'html',
+			});
+			const slider = document.getElementById("slider");
+			slider.oninput = function () {
+				if (this.value == 1) {
+					document.getElementById('plan').innerText = 'Monthly';
+					document.getElementById('mp1').innerText = '1.24$ / Month';
+					document.getElementById('mp2').innerText = '1.96$ / Month';
+					document.getElementById('mp3').innerText = '2.59$ / Month';
+					document.getElementById('mp4').innerText = '3.23$ / Month';
+					document.getElementById('mp5').innerText = '4.54$ / Month';
+					document.getElementById('mp6').innerText = '5.85$ / Month';
+					document.getElementById('mp7').innerText = '7.63$ / Month';
+					document.getElementById('mp8').innerText = '8.85$ / Month';
+					document.getElementById('mp9').innerText = '10.21$ / Month';
+					document.getElementById('mp10').innerText = '11.89$ / Month';
+					document.getElementById('mp11').innerText = '13.14$ / Month';
+					document.getElementById('mp12').innerText = '15.28$ / Month';
+					document.getElementById('mp1b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=52&billingcycle=monthly'
+					document.getElementById('mp2b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=60&billingcycle=monthly'
+					document.getElementById('mp3b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=61&billingcycle=monthly'
+					document.getElementById('mp4b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=62&billingcycle=monthly'
+					document.getElementById('mp5b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=63&billingcycle=monthly'
+					document.getElementById('mp6b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=64&billingcycle=monthly'
+					document.getElementById('mp7b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=65&billingcycle=monthly'
+					document.getElementById('mp8b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=66&billingcycle=monthly'
+					document.getElementById('mp9b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=67&billingcycle=monthly'
+					document.getElementById('mp10b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=68&billingcycle=monthly'
+					document.getElementById('mp11b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=69&billingcycle=monthly'
+					document.getElementById('mp12b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=70&billingcycle=monthly'
+				} else if (this.value == 2) {
+					document.getElementById('plan').innerText = 'Quarterly';
+					document.getElementById('mp1').innerText = '3.40$ / Quarterly';
+					document.getElementById('mp2').innerText = '5.38$ / Quarterly';
+					document.getElementById('mp3').innerText = '7.13$ / Quarterly';
+					document.getElementById('mp4').innerText = '8.89$ / Quarterly';
+					document.getElementById('mp5').innerText = '12.48$ / Quarterly';
+					document.getElementById('mp6').innerText = '16.09$ / Quarterly';
+					document.getElementById('mp7').innerText = '20.98$ / Quarterly';
+					document.getElementById('mp8').innerText = '24.33$ / Quarterly';
+					document.getElementById('mp9').innerText = '28.09$ / Quarterly';
+					document.getElementById('mp10').innerText = '32.69$ / Quarterly';
+					document.getElementById('mp11').innerText = '36.13$ / Quarterly';
+					document.getElementById('mp12').innerText = '42.02$ / Quarterly';
+					document.getElementById('mp1b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=52&billingcycle=quarterly'
+					document.getElementById('mp2b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=60&billingcycle=quarterly'
+					document.getElementById('mp3b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=61&billingcycle=quarterly'
+					document.getElementById('mp4b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=62&billingcycle=quarterly'
+					document.getElementById('mp5b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=63&billingcycle=quarterly'
+					document.getElementById('mp6b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=64&billingcycle=quarterly'
+					document.getElementById('mp7b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=65&billingcycle=quarterly'
+					document.getElementById('mp8b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=66&billingcycle=quarterly'
+					document.getElementById('mp9b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=67&billingcycle=quarterly'
+					document.getElementById('mp10b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=68&billingcycle=quarterly'
+					document.getElementById('mp11b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=69&billingcycle=quarterly'
+					document.getElementById('mp12b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=70&billingcycle=quarterly'
+
+				} else if (this.value == 3) {
+					document.getElementById('plan').innerText = 'Semi-Annually';
+					document.getElementById('mp1').innerText = '6.80$ / Semi-Annually';
+					document.getElementById('mp2').innerText = '10.76$ / Semi-Annually';
+					document.getElementById('mp3').innerText = '14.26$ / Semi-Annually';
+					document.getElementById('mp4').innerText = '17.78$ / Semi-Annually';
+					document.getElementById('mp5').innerText = '24.97$ / Semi-Annually';
+					document.getElementById('mp6').innerText = '32.17$ / Semi-Annually';
+					document.getElementById('mp7').innerText = '41.96$ / Semi-Annually';
+					document.getElementById('mp8').innerText = '48.65$ / Semi-Annually';
+					document.getElementById('mp9').innerText = '56.17$ / Semi-Annually';
+					document.getElementById('mp10').innerText = '65.39$ / Semi-Annually';
+					document.getElementById('mp11').innerText = '72.27$ / Semi-Annually';
+					document.getElementById('mp12').innerText = '84.03$ / Semi-Annually';
+					document.getElementById('mp1b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=52&billingcycle=semiannually'
+					document.getElementById('mp2b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=60&billingcycle=semiannually'
+					document.getElementById('mp3b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=61&billingcycle=semiannually'
+					document.getElementById('mp4b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=62&billingcycle=semiannually'
+					document.getElementById('mp5b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=63&billingcycle=semiannually'
+					document.getElementById('mp6b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=64&billingcycle=semiannually'
+					document.getElementById('mp7b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=65&billingcycle=semiannually'
+					document.getElementById('mp8b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=66&billingcycle=semiannually'
+					document.getElementById('mp9b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=67&billingcycle=semiannually'
+					document.getElementById('mp10b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=68&billingcycle=semiannually'
+					document.getElementById('mp11b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=69&billingcycle=semiannually'
+					document.getElementById('mp12b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=70&billingcycle=semiannually'
+
+				} else {
+					document.getElementById('plan').innerText = 'Annually';
+					document.getElementById('mp1').innerText = '13.60$ / Annually';
+					document.getElementById('mp2').innerText = '21.52$ / Annually';
+					document.getElementById('mp3').innerText = '28.52$ / Annually';
+					document.getElementById('mp4').innerText = '35.56$ / Annually';
+					document.getElementById('mp5').innerText = '49.94$ / Annually';
+					document.getElementById('mp6').innerText = '64.34$ / Annually';
+					document.getElementById('mp7').innerText = '83.92$ / Annually';
+					document.getElementById('mp8').innerText = '97.30$ / Annually';
+					document.getElementById('mp9').innerText = '112.34$ / Annually';
+					document.getElementById('mp10').innerText = '130.77$ / Annually';
+					document.getElementById('mp11').innerText = '144.54$ / Annually';
+					document.getElementById('mp12').innerText = '168.07$ / Annually';
+					document.getElementById('mp1b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=52&billingcycle=annually'
+					document.getElementById('mp2b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=60&billingcycle=annually'
+					document.getElementById('mp3b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=61&billingcycle=annually'
+					document.getElementById('mp4b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=62&billingcycle=annually'
+					document.getElementById('mp5b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=63&billingcycle=annually'
+					document.getElementById('mp6b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=64&billingcycle=annually'
+					document.getElementById('mp7b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=65&billingcycle=annually'
+					document.getElementById('mp8b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=66&billingcycle=annually'
+					document.getElementById('mp9b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=67&billingcycle=annually'
+					document.getElementById('mp10b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=68&billingcycle=annually'
+					document.getElementById('mp11b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=69&billingcycle=annually'
+					document.getElementById('mp12b').href = 'https://billing.chaoticdestiny.host/cart.php?a=add&pid=70&billingcycle=annually'
+
+				}
+			}
+		});
+	</script>
+</head>
+
+<body>
+
+	<!-- Navbar -->
+
+	<header>
+		<div id="nav"></div>
+		<h1 class="h1">We host your <span class="typing"></span></h1>
+		<p class="p">You're currently browsing our minecraft hosting page, try checking our <span class="typingp"></span></p>
+	</header>
+
+	<!-- Website Content -->
+
+	<main>
+
+		<h2 class="main-heading"><span class="gold">M</span>inecraft <span class="gold">H</span>osting</h2>
+
+		<section class="slider-container container">
+			<p><span id="plan">Monthly</span></p>
+			<input type="range" min="1" max="4" value="1" class="slider" id="slider">
+		</section>
+
+		<section id="bot-hosting" class="grid-container">
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Dirt Plan</h3>
+					<p><i class="fas fa-memory"></i> 512MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 75% CPU</p>
+					<p><i class="fas fa-hdd"></i> 5GB DISK</p>
+					<p><i class="fas fa-database"></i> 1 DATABASE</p>
+					<p><i class="fas fa-server"></i> 1 BACKUP</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp1">1.24$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp1b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Stone Plan</h3>
+					<p><i class="fas fa-memory"></i> 1024MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 75% CPU</p>
+					<p><i class="fas fa-hdd"></i> 10GB DISK</p>
+					<p><i class="fas fa-database"></i> 1 DATABASE</p>
+					<p><i class="fas fa-server"></i> 1 BACKUP</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp2">1.96$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp2b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Cobblestone Plan</h3>
+					<p><i class="fas fa-memory"></i> 1536MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 100% CPU</p>
+					<p><i class="fas fa-hdd"></i> 15GB DISK</p>
+					<p><i class="fas fa-database"></i> 1 DATABASE</p>
+					<p><i class="fas fa-server"></i> 1 BACKUP</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp3">2.59$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp3b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Coal Plan</h3>
+					<p><i class="fas fa-memory"></i> 2048MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 100% CPU</p>
+					<p><i class="fas fa-hdd"></i> 20GB DISK</p>
+					<p><i class="fas fa-database"></i> 1 DATABASE</p>
+					<p><i class="fas fa-server"></i> 1 BACKUP</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp4">3.23$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp4b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Iron Plan</h3>
+					<p><i class="fas fa-memory"></i> 3072MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 100% CPU</p>
+					<p><i class="fas fa-hdd"></i> 30GB DISK</p>
+					<p><i class="fas fa-database"></i> 2 DATABASES</p>
+					<p><i class="fas fa-server"></i> 2 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp5">4.54$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp5b">Buy Now</a>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Lapis Plan</h3>
+					<p><i class="fas fa-memory"></i> 4096MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 150% CPU</p>
+					<p><i class="fas fa-hdd"></i> 40GB DISK</p>
+					<p><i class="fas fa-database"></i> 2 DATABASES</p>
+					<p><i class="fas fa-server"></i> 2 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp6">5.85$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp6b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Redstone Plan</h3>
+					<p><i class="fas fa-memory"></i> 5120MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 150% CPU</p>
+					<p><i class="fas fa-hdd"></i> 50GB DISK</p>
+					<p><i class="fas fa-database"></i> 2 DATABASES</p>
+					<p><i class="fas fa-server"></i> 2 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp7">7.63$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp7b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Gold Plan</h3>
+					<p><i class="fas fa-memory"></i> 6144MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 150% CPU</p>
+					<p><i class="fas fa-hdd"></i> 60GB DISK</p>
+					<p><i class="fas fa-database"></i> 2 DATABASES</p>
+					<p><i class="fas fa-server"></i> 2 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp8">8.85$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp8b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Diamond Plan</h3>
+					<p><i class="fas fa-memory"></i> 7168 RAM</p>
+					<p><i class="fas fa-microchip"></i> 200% CPU</p>
+					<p><i class="fas fa-hdd"></i> 75GB DISK</p>
+					<p><i class="fas fa-database"></i> 3 DATABASES</p>
+					<p><i class="fas fa-server"></i> 3 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp9">10.21$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp9b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Emerald Plan</h3>
+					<p><i class="fas fa-memory"></i> 8196MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 200% CPU</p>
+					<p><i class="fas fa-hdd"></i> 90GB DISK</p>
+					<p><i class="fas fa-database"></i> 3 DATABASES</p>
+					<p><i class="fas fa-server"></i> 3 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp10">11.89$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp10b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Netherrite Plan</h3>
+					<p><i class="fas fa-memory"></i> 9126MB RAM</p>
+					<p><i class="fas fa-microchip"></i> 300% CPU</p>
+					<p><i class="fas fa-hdd"></i> 100GB DISK</p>
+					<p><i class="fas fa-database"></i> 3 DATABASES</p>
+					<p><i class="fas fa-server"></i> 3 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp11">13.14$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp11b">Buy Now</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-top">
+					<h3>Bedrock Plan</h3>
+					<p><i class="fas fa-memory"></i> 10240 RAM</p>
+					<p><i class="fas fa-microchip"></i> 300% CPU</p>
+					<p><i class="fas fa-hdd"></i> 125GB DISK</p>
+					<p><i class="fas fa-database"></i> 3 DATABASES</p>
+					<p><i class="fas fa-server"></i> 3 BACKUPS</p>
+					<hr>
+					<p>✔ Pterodactyl Panel</p>
+					<p>✔ Europe Location</p>
+					<p>✔ 99.97% Uptime</p>
+				</div>
+				<div class="card-bottom">
+					<p>Starting from:</p>
+					<h4 id="mp12">15.28$ / Month</h4>
+					<a draggable="false" href="" target="_blank" class="buy-now" id="mp12b">Buy Now</a>
+				</div>
+			</div>
+
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+
+	<div id="footer"></div>
+
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5ec24df4967ae56c521ac732/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+
+</body>
+
+</html>
